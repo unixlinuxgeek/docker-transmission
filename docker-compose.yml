@@ -1,0 +1,8 @@
+version: '3.4'    
+    
+services: 
+  transmission:
+    image: unixlinuxgeek/transmission
+    network_mode: host
+    volumes:
+      - /home/geek/transmission/downloads:/opt
